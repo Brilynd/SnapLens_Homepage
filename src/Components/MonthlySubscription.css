@@ -1,0 +1,44 @@
+.Subscription-Wrapper{
+    display: flex;
+justify-content: space-evenly;
+width: 80%;
+margin-inline:  auto; 
+margin-bottom: 10%;
+}
+.Subscription-Wrapper div{
+    text-align: center;
+    border-radius: 6px;
+    background-color: white;
+    padding-inline: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 18%;
+    transition: all ease-in-out 250ms;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Subscription-Wrapper div:hover{
+    box-shadow: none;
+}
+#Subscription-Header{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 10%;
+}
+.Subscription-Wrapper h1,.Subscription-Wrapper p{
+    text-align: center;
+}
+.Subscription-Wrapper button{
+    margin-top: 3%;
+    font-size: 18px;
+    border-radius: 8px;
+    padding:4% 8%;
+    background-color: #000;
+    border: 1px solid transparent;
+    color: #FFF;
+    text-align: center;
+    transition: all ease-in-out 250ms;
+    cursor: pointer;
+}
+.Subscription-Wrapper button:hover{
+    color: #FFFC00;
+}

@@ -1,0 +1,27 @@
+.Content-Wrapper{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+}
+.Advertisement-Text-Wrapper{
+    width: 40%;
+    align-self: center;
+}
+.Advertisement-Text-Wrapper h2{
+    font-size: 64px;
+}
+.Advertisement-Text-Wrapper p{
+    font-size: 32px;
+    font-weight: 500;
+}
+.Advertisement-Image-Wrapper{
+    width: 40%;
+    align-self: center;
+    margin: 0 auto;
+}
+.Advertisement-Image-Wrapper img{
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
